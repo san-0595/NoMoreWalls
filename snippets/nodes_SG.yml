@@ -9,47 +9,18 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: 104.17.121.37
-  skip-cert-verify: true
-  sni: my.hitgram.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: my.hitgram.ir
-    path: /?ed=mitivpn
 - alterId: 2
   cipher: auto
-  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  client-fingerprint: chrome
+  name: 🇸🇬SG_3|3.6MB/s
+  network: tcp
   port: 30845
   server: v45.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: 104.17.121.9
   skip-cert-verify: true
-  sni: my.hitgram.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: my.hitgram.ir
-    path: /?ed=mitivpn
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -86,15 +57,3 @@ proxies:
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.6MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

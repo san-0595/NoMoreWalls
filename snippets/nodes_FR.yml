@@ -1,14 +1,1 @@
-proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'A - 🇫🇷 FR 01 TG: @nodpai'
-  port: 2053
-  server: de5.taskflowhub.org
-  tls: true
-  type: vmess
-  uuid: ca58b165-0f7d-49aa-9fae-a017e8a0f884
+proxies: []
