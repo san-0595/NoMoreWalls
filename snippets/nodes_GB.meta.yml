@@ -18,20 +18,15 @@ proxies:
     headers:
       Host: vms.lifetime36.workers.dev
     path: /?ed=2560
-- name: 🇺🇸US_15|1.1MB/s
+- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
   network: ws
-  port: '8880'
+  port: 8880
   server: 45.80.110.30
   type: vless
-  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: vms.lifetime51.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: ''
-  xudp: true
 - name: 'B - 🇬🇧 GB 04 TG: @nodpai'
   network: ws
   port: 8880
@@ -42,37 +37,15 @@ proxies:
     headers:
       Host: vms.lifetime59.workers.dev
     path: /
-- name: 🇺🇸US_17|1.3MB/s
+- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
   network: ws
-  port: '8880'
+  port: 8880
   server: 77.75.199.30
   type: vless
-  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: vms.lifetime59.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: ''
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: GB_speednode_0010
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UJSYKOEr3a3V1P_obd9zNBq4Pr3Vbd_a2nHE7-rstRk
-    short-id: '!!str 6089640857a72237'
-  server: 217.179.6.84
-  servername: France1cxc.chickenkiller.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0006
@@ -87,3 +60,17 @@ proxies:
   type: vless
   udp: true
   uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0010
+  port: 443
+  reality-opts:
+    public-key: UJSYKOEr3a3V1P_obd9zNBq4Pr3Vbd_a2nHE7-rstRk
+    short-id: '!!str 6089640857a72237'
+  server: 217.179.6.84
+  servername: France1cxc.chickenkiller.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d78c12c4-6927-40b8-8550-ed9be00334da

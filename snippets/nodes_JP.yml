@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: 🇯🇵JP_2|3.6MB/s
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53307
@@ -32,12 +32,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 🇯🇵JP_3|1.9MB/s
-  network: tcp
-  password: q6UYkw9nUn6MYZz8Sp
-  port: '443'
-  server: ty-2.tr202604.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
