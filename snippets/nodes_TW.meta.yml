@@ -26,3 +26,18 @@ proxies:
     headers:
       Host: ct3.ainivp.com
     path: /ray
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇹🇼TW_1|3.6MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+    short-id: '!!str e6d59aff03e5b0'
+  security: reality
+  server: tw4.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  tls: true
+  type: vless
+  uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51

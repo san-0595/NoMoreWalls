@@ -116,8 +116,8 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53307
-  server: 13.231.192.34
+  port: 4099
+  server: 3.112.60.98
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -125,7 +125,7 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 24184
-  server: 18.163.128.27
+  server: 18.163.75.132
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -133,7 +133,24 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3135
-  server: 18.163.128.27
+  server: 43.199.160.155
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_1|1.0MB/s
+  network: ws
+  port: 2087
+  server: 172.64.229.253
+  servername: darkness427edge-93h.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1f8283d-36f5-4ff9-8ad8-e6d733a18fa0
+  ws-opts:
+    headers:
+      Host: darkness427edge-93h.pages.dev
+    path: /
+  xudp: true

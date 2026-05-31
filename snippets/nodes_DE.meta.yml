@@ -81,13 +81,62 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪39191 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: MasirSefid
-  password: MasirSefid
-  port: 443
-  server: 18.194.55.17
-  skip-cert-verify: false
-  sni: qs.masir-sefid.shop
-  tls: false
-  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|3.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
+    short-id: '!!str '
+  server: 87.120.93.69
+  servername: www.deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2001daf3-5c56-4bef-8ea6-8dd0493c5a4c
+  xudp: true
+- alpn:
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: 🇩🇪DE_2|2.5MB/s
+  port: 10066
+  protocol: udp
+  server: 62.210.29.98
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: '11'
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|3.1MB/s
+  network: xhttp
+  port: '443'
+  server: 116.203.138.13
+  servername: dir.antidogm.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03fa2758-626f-47c7-ac66-5c549e4f4ce0
+  xhttp-opts:
+    host: dir.antidogm.xyz
+    mode: stream-one
+    path: /streamio
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_4|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: S4lyhlmpZbB8qSe-zKcWeSOPTjpkgE8q-oQ5H2q1X00
+    short-id: '!!str 5e841fab'
+  server: ru3.vitok.cc
+  servername: dzen.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b9e301d-cecd-4eb1-8b36-eef811c2696d
+  xudp: true
