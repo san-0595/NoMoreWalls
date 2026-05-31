@@ -2,14 +2,14 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇭CH_1|2.5MB/s
+  name: CH_speednode_0002
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8
-    short-id: '!!str '
   server: mzonede.3cloudhost.com
   servername: mzone.3cloudhost.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -42,7 +42,7 @@ proxies:
   uuid: 8a38623a-3e7f-5598-bdc9-894cbad4c5b6
   xudp: true
 - client-fingerprint: chrome
-  name: CH_speednode_0003
+  name: CH_speednode_0001
   port: 443
   reality-opts:
     public-key: PYX0lu3m0L_h28eW4186s63gRFHXoTc3K9wKeFewDUQ
