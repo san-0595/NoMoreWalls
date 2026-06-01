@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- name: 🇨🇭CH_2|1.3MB/s
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
