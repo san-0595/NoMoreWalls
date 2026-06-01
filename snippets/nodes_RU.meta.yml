@@ -1,36 +1,62 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: /sequre/grpc
-  name: 🇷🇺RU_1|1.5MB/s
-  network: grpc
-  port: '443'
-  server: 185.14.46.20
-  servername: 185.14.46.20.blanesik.space
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.4MB/s
+  network: tcp
+  port: '12444'
+  reality-opts:
+    public-key: dYmNf0AA5qgV2ct3dPCYtxdS2iD3FEUnEs6J1GWe2wU
+    short-id: '!!str 9a79'
+  server: 157.22.241.46
+  servername: 2gis.ru
   tls: true
   type: vless
   udp: true
-  uuid: a1b19834-a5e3-4d49-9301-aaa3fb248f49
+  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|1.5MB/s
+  network: raw
+  port: '23346'
+  reality-opts:
+    public-key: SSVyNwsSA0BFp8HJWvqc-VQjwOtKrVnl6nDFJxpHU18
+    short-id: '!!str 4294bfc2'
+  server: ru-nl.omuvpn.tech
+  servername: zvuk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇷🇺RU_2|1.8MB/s
-  network: xhttp
-  port: '5969'
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_3|2.5MB/s
+  network: tcp
+  port: '23151'
   reality-opts:
-    public-key: lPTd0_SulMMhWfRHF4tjsv5iM06hU1bDJv8aPaBipEw
-    short-id: '!!str c19de8fa'
-  server: 37.139.34.63
-  servername: surfvpn24.ru
+    public-key: eP0MKUFOcNVSVFbHT8GgBLP4LIHZFq8JuVGlCAlH1HI
+    short-id: '!!str '
+  server: 217.26.24.101
+  servername: cms-res-web.online.sberbank.ru
   tls: true
   type: vless
   udp: true
-  uuid: 10132cf6-6536-4c45-8d75-c90f91a1c5d6
-  xhttp-opts:
-    mode: stream-up
-    path: /bridge-xhttp
+  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3
   xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0021
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
   name: RU_speednode_0019
   port: 443
@@ -44,6 +70,17 @@ proxies:
   type: vless
   udp: true
   uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0025
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
   name: RU_speednode_0024
   port: 443

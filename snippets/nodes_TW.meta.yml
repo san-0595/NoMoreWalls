@@ -1,16 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇹🇼TW_1|3.6MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
-    short-id: '!!str e6d59aff03e5b0'
-  security: reality
-  server: tw4.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  tls: true
-  type: vless
-  uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_1|2.5MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: '50099'
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+  udp: true

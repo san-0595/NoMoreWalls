@@ -1,15 +1,15 @@
 proxies:
 - name: 美国|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
-  server: 175.41.230.39
+  server: 16.163.157.108
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
   server: 54.238.76.39
   skip-cert-verify: true
@@ -18,19 +18,20 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 54.238.206.69
+  port: 2520
+  server: 95.40.4.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
+  name: 🇺🇸US_1|1.5MB/s
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
@@ -41,19 +42,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 🇺🇸US_5|3.3MB/s
+  name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.250
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 美国5|@ripaojiedian
@@ -64,55 +62,40 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|1.2MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 🇺🇸US_2|1016KB/s
-  port: 180
-  server: 82.198.246.214
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: xDFXqfhZ7-IQiFwXpXltNe2Axo5O33k4LAqDfAVtyz4
+    short-id: '!!str 7b'
+  server: 150.241.83.60
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec13d921-3072-4e16-b2cd-af709f7f7894
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_3|3.5MB/s
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0021
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  xudp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0025
-  network: tcp
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
   name: RU_speednode_0022
-  network: tcp
+  network: raw
   port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -122,13 +105,22 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 🇺🇸US_7|2.2MB/s
-  network: tcp
+  name: 🇺🇸US_5|3.1MB/s
+  network: raw
   port: '180'
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_7|1.9MB/s
+  port: 180
   server: 82.198.246.37
   servername: <nil>
   skip-cert-verify: false
@@ -136,50 +128,36 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_8|2.5MB/s
-  network: raw
-  port: '19131'
-  reality-opts:
-    public-key: yxRy8t-W5pCOglMeGNTeen8vQPK1SG0sM49vL6GLpjo
-    short-id: '!!str 0a8a84dcb5'
-  server: us.gryaz-vpn.com
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3275a667-4a67-4d43-b0ba-54da2d1145dd
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_9|3.2MB/s
-  network: raw
-  port: '180'
-  server: 82.198.246.250
-  skip-cert-verify: false
+  flow: ''
+  name: 🇺🇸US_8|3.5MB/s
+  network: tcp
+  port: 20001
+  server: vpnicp.xyc.hk.cn
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- client-fingerprint: qq
+  uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_13|2.6MB/s
-  network: tcp
+  name: 🇺🇸US_9|2.6MB/s
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: Y4TRkvxDmVR_iIvCTHiixPYnkHVYxMI4d2P5HsXnaBk
-    short-id: '!!str 06341ef4c0fb6507'
-  server: us01.lumixvpn.org
-  servername: us01.lumixvpn.org
+  server: 216.24.57.1
+  servername: investors.spotify.com.cyylr.eu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 107d9e9e-5634-44ef-a90b-c5118832fae6
+  uuid: 5dbfed06-dd62-48c0-8e39-b4835defcdb0
+  ws-opts:
+    headers:
+      Host: investors.spotify.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /sg-amz
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
