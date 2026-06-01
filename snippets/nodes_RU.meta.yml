@@ -1,15 +1,20 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: RU_speednode_0042
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
+  name: RU_speednode_0047
+  network: tcp
+  port: 23151
+  reality-opts:
+    public-key: eP0MKUFOcNVSVFbHT8GgBLP4LIHZFq8JuVGlCAlH1HI
+  server: 217.26.24.101
+  servername: cms-res-web.online.sberbank.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3
+  xudp: true
 - client-fingerprint: chrome
   name: RU_speednode_0040
   port: 443
@@ -23,17 +28,6 @@ proxies:
   type: vless
   udp: true
   uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0043
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: RU_speednode_0046
@@ -58,16 +52,3 @@ proxies:
   type: vless
   udp: true
   uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0047
-  port: 23151
-  reality-opts:
-    public-key: eP0MKUFOcNVSVFbHT8GgBLP4LIHZFq8JuVGlCAlH1HI
-  server: 217.26.24.101
-  servername: cms-res-web.online.sberbank.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3

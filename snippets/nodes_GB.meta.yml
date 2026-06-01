@@ -1,4 +1,54 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: oqoNDQVcGzlSfB6v8mVlDZhLBUC9glFEOG853ZWiLh4
+    short-id: '!!str 4326'
+  server: god2.ultimagamest.com
+  servername: god2.ultimagamest.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5da02d88-a8cb-4bbb-a667-7d543a72f0a4
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_2|2.6MB/s
+  network: xhttp
+  port: '8080'
+  reality-opts:
+    public-key: fpWRXtm9TN1a0C7h9ZoA0SZ736ONC_ISOuoOvVnPJDU
+    short-id: '!!str 6d6f13013d3e1d0c'
+  server: 31.76.122.131
+  servername: ozon.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2fb73fb6-1fa1-422e-ad82-a1a7b5f11078
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.4MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: oqoNDQVcGzlSfB6v8mVlDZhLBUC9glFEOG853ZWiLh4
+    short-id: '!!str 4326'
+  server: 31.76.122.135
+  servername: god2.ultimagamest.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2fb73fb6-1fa1-422e-ad82-a1a7b5f11078
+  xudp: true
 - name: GB_speednode_0018
   password: da292191-b895-3264-b41c-200512b8f965
   port: 40015
@@ -13,5 +63,13 @@ proxies:
   server: a.twodnwnpoe.xyz
   skip-cert-verify: true
   sni: i.comfortableyou.top
+  type: trojan
+  udp: true
+- name: GB_speednode_0020
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: 40017
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: water.waittomorrow.top
   type: trojan
   udp: true

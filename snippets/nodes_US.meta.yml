@@ -71,24 +71,128 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_1|3.4MB/s
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_5|2.6MB/s
+  flow: xtls-rprx-vision
+  name: RU_speednode_0042
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: RU_speednode_0043
+  network: raw
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_4|3.3MB/s
+  network: raw
+  port: '180'
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 🇺🇸US_5|2.5MB/s
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  port: 443
+  server: 185.106.96.231
+  skip-cert-verify: false
+  sni: s559.ccgfw.top
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇺🇸US_6|2.9MB/s
   network: tcp
   password: BxceQaOe
   port: '2520'
   server: 95.40.4.37
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: 95.40.4.37
   type: trojan
   udp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_4|1019KB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_7|3.2MB/s
+  network: ws
+  port: '443'
+  server: 27.50.48.49
+  servername: somersby.pt.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 197f5e5c-fc15-4db6-8444-50248c2c394d
+  ws-opts:
+    headers:
+      Host: somersby.pt.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /sg-amz
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_8|2.6MB/s
+  network: ws
+  port: '443'
+  server: 27.50.48.49
+  servername: investors.spotify.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 228639b0-48de-4162-a818-d5651ee297b3
+  ws-opts:
+    headers:
+      Host: investors.spotify.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /in-do
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_9|3.2MB/s
+  network: ws
+  port: '8443'
+  server: 3h-unitedstates3.09vpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48572af1-d091-457b-a86e-4a457e99927f
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /vless/
+  xudp: true
 - name: US_speednode_0051
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443

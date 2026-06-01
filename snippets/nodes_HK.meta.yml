@@ -42,12 +42,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: GB_speednode_0020
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40017
-  server: a.twodnwnpoe.xyz
+- name: 🇭🇰HK_1|1.0MB/s
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 8443
+  server: c7f72645-te24g0-twuk0i-1hzyr.hkt2.cdnhuawei.com
   skip-cert-verify: true
-  sni: water.waittomorrow.top
-  tls: true
-  type: trojan
+  sni: c7f72645-te24g0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  type: anytls
+- client-fingerprint: chrome
+  name: 🇭🇰HK_2|1.0MB/s
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 8300
+  server: 1b30bbb8-t9wqo0-tb5ob4-64gc.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 1b30bbb8-t9wqo0-tb5ob4-64gc.hkt.east.wctype.com
+  type: anytls
   udp: true
+- name: 🇭🇰HK_3|1.3MB/s
+  password: <password>
+  port: 8443
+  server: f868c076-t9zts0-tqx9ef-1k0yf.hkt.cdnhuawei.com
+  sni: f868c076-t9zts0-tqx9ef-1k0yf.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
