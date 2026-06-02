@@ -16,7 +16,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_3|1.3MB/s
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 10478
@@ -24,23 +24,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬SG_5|2.0MB/s
-  network: tcp
-  password: BxceQaOe
-  port: '10478'
-  server: 43.206.130.64
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_6|2.6MB/s
-  network: tcp
-  password: BxceQaOe
-  port: '10478'
-  server: 43.206.130.64
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
