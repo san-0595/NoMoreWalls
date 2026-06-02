@@ -15,11 +15,3 @@ proxies:
   sni: i.comfortableyou.top
   type: trojan
   udp: true
-- name: GB_speednode_0020
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40017
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
-  type: trojan
-  udp: true

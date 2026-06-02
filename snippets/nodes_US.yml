@@ -1,5 +1,5 @@
 proxies:
-- name: 美国2|@ripaojiedian
+- name: 🇺🇸US_8|1.1MB/s
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5224
@@ -34,41 +34,18 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_1|3.4MB/s
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_4|3.3MB/s
-  network: raw
-  port: '180'
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_6|2.9MB/s
+  name: 🇺🇸US_5|2.0MB/s
   network: tcp
   password: BxceQaOe
   port: '2520'
   server: 95.40.4.37
   skip-cert-verify: true
-  sni: 95.40.4.37
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - name: US_speednode_0053
+  network: tcp
   password: BxceQaOe
   port: 2520
   server: 95.40.4.37
@@ -76,3 +53,33 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_11|1.5MB/s
+  network: ws
+  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
+  port: '443'
+  server: 108.181.4.83
+  skip-cert-verify: false
+  sni: us6lh1fsyabizv5m.lovebaipiao.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /images
+- client-fingerprint: chrome
+  name: 🇺🇸US_12|1022KB/s
+  network: ws
+  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
+  port: '443'
+  server: us6lh1fsyabizv5m.lovebaipiao.net
+  skip-cert-verify: false
+  sni: us6lh1fsyabizv5m.lovebaipiao.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /images
