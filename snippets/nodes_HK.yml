@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
+- name: 🇭🇰HK_1|3.8MB/s
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
@@ -24,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 🇭🇰HK_2|3.4MB/s
   network: tcp
   password: BxceQaOe
   port: 50712

@@ -1,4 +1,23 @@
 proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_1|1.7MB/s
+  network: xhttp
+  port: '443'
+  server: 104.17.121.71
+  servername: sabkpo.tll-far.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: d644824c-7f7c-4b48-87da-d988722082cb
+  xhttp-opts:
+    host: sabkpo.tll-far.ir
+    mode: auto
+    path: /Telegram-Zedmodeon
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: GB_speednode_0011

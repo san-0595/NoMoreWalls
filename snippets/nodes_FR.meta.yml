@@ -1,13 +1,15 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.6MB/s
-  network: tcp
-  password: telegram-id-directvpn
-  port: '22223'
-  server: 13.36.49.197
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0047
+  port: 443
+  reality-opts:
+    public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
+    short-id: '!!str 57cc65bfd5ef7465'
+  server: 185.212.117.34
+  servername: www.scaleway.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: bb2b0112-577f-4862-886a-3c2ee004ca23

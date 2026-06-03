@@ -23,11 +23,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: JP_speednode_0022
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 1180
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+- alpn:
+  - h3
+  name: 🇸🇬SG_1|1.8MB/s
+  password: ff488c48-b745-4d65-a6a1-0339be0b7fd7
+  port: 17398
+  server: osg01.7770123.xyz
+  sni: osg01.7770123.xyz
+  type: hysteria2
   udp: true

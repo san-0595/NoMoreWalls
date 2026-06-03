@@ -34,22 +34,24 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- encryption: none
-  name: 🇺🇸US_1|2.2MB/s
-  network: tcp
-  port: '2073'
-  server: us-pro.ct-sub.ir
-  type: vless
-  udp: true
-  uuid: 3421a66c-0bd3-4eeb-8bb1-d50b35afd110
-  xudp: true
 - client-fingerprint: chrome
-  name: 🇺🇸US_2|1.6MB/s
+  name: 🇺🇸US_1|1.4MB/s
+  network: tcp
   password: BxceQaOe
   port: '2520'
   server: 95.40.4.37
   skip-cert-verify: true
   sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: US_speednode_0050
+  network: tcp
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -66,14 +68,6 @@ proxies:
   type: vless
   udp: true
   uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
-- name: US_speednode_0050
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: firefox

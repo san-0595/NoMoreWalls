@@ -1,12 +1,4 @@
 proxies:
-- name: 'Channel id: @internet_azad_202...'
-  password: IG9Sundefinedvx6RJ
-  port: 58771
-  server: 47.76.94.197
-  skip-cert-verify: true
-  sni: go.microsoft.com
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -16,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
+- name: 🇭🇰HK_1|3.8MB/s
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
@@ -32,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 🇭🇰HK_2|3.4MB/s
   network: tcp
   password: BxceQaOe
   port: 50712
@@ -50,3 +42,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰HK_3|1.1MB/s
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 8443
+  server: 199dc802-te5ts0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  skip-cert-verify: true
+  sni: 199dc802-te5ts0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  type: anytls

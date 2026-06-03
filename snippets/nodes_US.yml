@@ -35,7 +35,8 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  name: 🇺🇸US_2|1.6MB/s
+  name: 🇺🇸US_1|1.4MB/s
+  network: tcp
   password: BxceQaOe
   port: '2520'
   server: 95.40.4.37
@@ -43,7 +44,9 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: US_speednode_0050
+- client-fingerprint: chrome
+  name: US_speednode_0050
+  network: tcp
   password: BxceQaOe
   port: 2520
   server: 95.40.4.37
