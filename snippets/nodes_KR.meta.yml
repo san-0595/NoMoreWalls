@@ -1,13 +1,4 @@
 proxies:
-- alpn:
-  - h3
-  name: 🇰🇷KR_1|1.5MB/s
-  password: ff488c48-b745-4d65-a6a1-0339be0b7fd7
-  port: 15219
-  server: okrs01.7770123.xyz
-  sni: okrs01.7770123.xyz
-  type: hysteria2
-  udp: true
 - name: KR_speednode_0025
   password: test.+
   port: 30446

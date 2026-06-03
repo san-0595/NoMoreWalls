@@ -2,20 +2,19 @@ proxies:
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 5224
-  server: 18.163.33.60
+  port: 6604
+  server: 18.162.232.155
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: US_speednode_0054
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 95.40.68.192
+  port: 2702
+  server: 95.40.68.150
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国4|@ripaojiedian
@@ -35,92 +34,38 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_1|2.1MB/s
-  network: ws
-  port: 8443
-  server: yg7.ygkkk.dpdns.org
-  servername: marco-visibility-tops-estimate.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
-  ws-opts:
-    headers:
-      Host: marco-visibility-tops-estimate.trycloudflare.com
-    path: /c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d-vm
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: RU_speednode_0045
-  network: raw
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
+- encryption: none
+  name: 🇺🇸US_1|2.2MB/s
+  network: tcp
+  port: '2073'
+  server: us-pro.ct-sub.ir
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 3421a66c-0bd3-4eeb-8bb1-d50b35afd110
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: RU_speednode_0048
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: DE_speednode_0006
-  network: tcp
-  port: 55152
-  reality-opts:
-    public-key: fX2XkujtqhnkQDy-Lwgqm_OofDs1qO5ytvVNM6aV4C4
-    short-id: '!!str ddcac8ed'
-  server: 193.23.222.99
-  servername: cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 827466ba-0910-4c48-b156-2f37fdbda362
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_7|2.1MB/s
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: <nil>
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- client-fingerprint: chrome
-  name: US_speednode_0052
-  network: tcp
+  name: 🇺🇸US_2|1.6MB/s
   password: BxceQaOe
-  port: 2520
+  port: '2520'
   server: 95.40.4.37
   skip-cert-verify: true
-  sni: 95.40.4.37
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0049
+  port: 443
+  reality-opts:
+    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+    short-id: '!!str e6d59aff03e5b0'
+  server: tw4.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
 - name: US_speednode_0050
   password: BxceQaOe
   port: 2520
@@ -146,6 +91,22 @@ proxies:
     headers:
       Host: 35cdnws.frnstatic.info
     path: /35cdnws
+- name: US_speednode_0052
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: 95.40.4.37
+  type: trojan
+  udp: true
+- name: US_speednode_0054
+  password: BxceQaOe
+  port: 17801
+  server: 95.40.68.192
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - name: US_speednode_0055
   network: ws
   port: 443

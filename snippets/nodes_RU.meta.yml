@@ -1,53 +1,15 @@
 proxies:
-- encryption: none
-  name: 🇷🇺RU_1|2.1MB/s
-  network: ws
-  port: '2087'
-  server: p1.rug.locker
-  type: vless
-  udp: true
-  uuid: faeecaef-7f19-4496-b0c8-07b83ab2bdf3
-  ws-opts:
-    headers:
-      Host: p1.rug.locker
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /ws
-  xudp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|2.5MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-    short-id: '!!str '
-  server: 185.139.214.254
-  servername: cloudcdn-m9-15.cdn.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|1.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
-    short-id: '!!str 226509f017e4c36d'
-  server: vrubg.mostserv.xyz
-  servername: vrubg.mostserv.xyz
+  name: RU_speednode_0048
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0ddc1b7c-ce23-000a-8ede-8a9e19f02fb7
-  xudp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
   name: RU_speednode_0041
   port: 443
@@ -72,6 +34,31 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0045
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU_speednode_0046
+  port: 443
+  reality-opts:
+    public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
+    short-id: '!!str 226509f017e4c36d'
+  server: vrubg.mostserv.xyz
+  servername: vrubg.mostserv.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ddc1b7c-ce23-4a30-8ede-8a9e19f02fb7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: RU_speednode_0047

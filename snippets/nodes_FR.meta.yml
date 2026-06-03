@@ -2,23 +2,12 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.1MB/s
+  name: 🇫🇷FR_1|1.6MB/s
   network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.83
+  password: telegram-id-directvpn
+  port: '22223'
+  server: 13.36.49.197
   skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
+  sni: trojan.burgerip.co.uk
   type: trojan
-- encryption: none
-  name: 🇫🇷FR_2|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 46989
-  server: 135.125.136.238
-  skip-cert-verify: false
-  tls: false
-  type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
