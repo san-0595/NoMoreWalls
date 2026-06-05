@@ -221,31 +221,66 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|1.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.79.104.163
-  skip-cert-verify: false
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_3|1.4MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: '8080'
+  server: 82.38.31.192
   type: ss
-  udp: false
-- name: 🇭🇰HK_1|1.3MB/s
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: false
-  type: trojan
   udp: true
-- name: 🇩🇪DE_2|1016KB/s
-  network: tcp
+- name: 🇭🇰HK_2|1.1MB/s
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
+  port: '46424'
   server: 155.117.198.83
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_1|1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.96.152.83
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_2|2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.60.99.199
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|2.7MB/s
+  password: qwerREWQ@@
+  port: 55104
+  server: 221.150.109.20
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇸🇬SG_2|1.7MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '443'
+  server: 140.235.140.105
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_5|3.2MB/s
+  network: raw
+  port: '180'
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - name: DE_speednode_0011
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443

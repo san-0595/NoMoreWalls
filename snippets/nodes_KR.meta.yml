@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|2.7MB/s
+  password: qwerREWQ@@
+  port: 55104
+  server: 221.150.109.20
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - name: KR_speednode_0018
   port: 1090
   server: 121.169.46.116

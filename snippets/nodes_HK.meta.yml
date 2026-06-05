@@ -42,13 +42,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_1|1.3MB/s
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_1|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
+    short-id: '!!str 1bc2c1ef1c'
+  server: 155.254.102.74
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6dbaf95-1c9e-48c5-a0b4-0bd18aecc221
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK_2|1.1MB/s
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
+  port: '46424'
+  server: 155.117.198.83
   skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: false
+  sni: de.01.naiun.bilibili.com
   type: trojan
   udp: true
 - name: HK_speednode_0016
