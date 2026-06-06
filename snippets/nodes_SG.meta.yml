@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_2|1.2MB/s
+- name: 新加坡2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6357
@@ -39,43 +39,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG_1|1.8MB/s
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: cef172fc-87b0-4db7-9ffc-52b5aca91014
-  ws-opts:
-    headers:
-      Host: 781a7e8778459cb48b666fc3985a2450.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|1.1MB/s
+  name: 🇸🇬SG_1|1.2MB/s
   network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: '443'
-  server: www.shopify.com
-  servername: 7xbq35vdydie5sgv.cctg.xx.kg
-  tls: true
-  type: vless
+  server: 13.250.131.37
+  skip-cert-verify: false
+  sni: dxy1h.twiladaphne.ndjp.net
+  type: trojan
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 7xbq35vdydie5sgv.cctg.xx.kg
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /@Marisa_kristifp=chrome
-  xudp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🇸🇬SG_4|1.2MB/s
-  password: 48b603e6-6568-464e-a32f-4cf0526a9f1a
-  port: '5835'
-  server: 8.219.215.193
-  sni: claw.isbigdick.cc.cd
-  type: tuic
-  udp: true
-  uuid: 48b603e6-6568-464e-a32f-4cf0526a9f1a
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
