@@ -193,7 +193,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '@meliproxyy #3'
+- name: '@filembad #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -203,7 +203,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '@internet_azad_2026 #3'
+- name: '@filembad #2'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: '@Masir_Sefid'
@@ -373,17 +373,7 @@ proxies:
   sni: sg2.yuntong.click
   tls: false
   type: hysteria2
-- name: kurdconfig
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: sg2.yuntong.click
-  skip-cert-verify: false
-  sni: sg2.yuntong.click#@Kia_Net (465.2)
-  tls: false
-  type: hysteria2
-- name: '@meliproxyy #7'
+- name: '@filembad #5'
   obfs: salamander
   obfs-password: masir_sefid
   password: masir_sefid
