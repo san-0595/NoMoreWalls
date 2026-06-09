@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.91.21
+  servername: jp.s3-cloud.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  xudp: true

@@ -1,9 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_1|1.7MB/s
-  password: a5115845-cc23-4082-905e-869fe212dfef
-  port: 38777
-  server: account-center.zzdy25.com
-  skip-cert-verify: false
-  type: ss
-  udp: false
+proxies: []
