@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_1|2.0MB/s
-  password: 32c0ea6e823341a2
-  port: 20129
-  server: 46.29.163.200
-  type: ss
-  udp: true
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: RU_speednode_0049
@@ -17,3 +10,18 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: RU_speednode_0050
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
+    short-id: '!!str a987b6bd1781daa3'
+  server: 5.35.85.51
+  servername: www.kinopoisk.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 888403d1-621b-481a-b5dc-7aca518a787b

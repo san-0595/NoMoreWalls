@@ -7,41 +7,27 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  fingerprint: chrome
-  name: 🇺🇸57237 | ⚡️Telegram = t.me/SO...
-  obfs: salamander
-  obfs-password: hnig8m946a2rl0ll
-  password: 1g4quompn4f49wn9
-  port: 8443
-  server: 104.253.25.160
-  sni: 104.253.25.160
-  tls: false
-  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 95.40.24.24
+  port: 17005
+  server: 18.162.124.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 49277
-  server: 16.163.146.65
+  port: 17005
+  server: 43.198.98.40
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 54.46.2.184
+  port: 39959
+  server: 43.199.217.233
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -64,35 +50,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  fp: chrome
-  name: 🇺🇸US_1|1.1MB/s
-  packet-encoding: xudp
-  password: 1c61845e-2a5c-45ae-a34e-8968cb85cc0d
-  port: 51112
-  server: 38.99.248.217
-  skip-cert-verify: false
-  sni: nauk.eu.cc
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_2|1.0MB/s
-  network: tcp
-  port: '7443'
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str d82fb387'
-  server: 167.104.223.57
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
-  xudp: true
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
@@ -107,45 +64,82 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- client-fingerprint: qq
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: RU_speednode_0050
+  name: 🇺🇸US_3|2.5MB/s
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_5|2.4MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 🇺🇸US_6|1.0MB/s
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: C5FC4ED3-25A0-4ACC-9862-0B63EB7EAD54
+  port: 21756
+  server: us9.dexlos.com
+  skip-cert-verify: false
+  sni: us9.dexlos.com
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_7|2.5MB/s
   network: tcp
   packet-encoding: xudp
-  port: 8443
+  port: 7443
   reality-opts:
-    public-key: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
-    short-id: '!!str a987b6bd1781daa3'
-  server: 5.35.85.51
-  servername: www.kinopoisk.ru
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: '!!str be0ce047'
+  server: 167.104.223.58
+  servername: www.microsoft.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 888403d1-621b-481a-b5dc-7aca518a787b
+  uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_5|3.1MB/s
-  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
-  port: '51523'
-  server: ru.moktana.app
+  name: 🇺🇸US_8|2.2MB/s
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 36321
+  server: account-center.zzdy25.com
+  skip-cert-verify: false
   type: ss
-  udp: true
-- client-fingerprint: chrome
+  udp: false
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_6|2.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 217.149.25.106
-  servername: ai.sellflow.org
+  name: 🇺🇸US_9|1.1MB/s
+  network: ws
+  port: '2087'
+  server: 104.18.26.90
+  servername: us1.monopolitass.ir
   tls: true
   type: vless
   udp: true
-  uuid: 029a4bc6-4557-4b6b-a5fc-6232e943e43b
+  uuid: 045acec8-7d9e-4793-9917-c909a4a70887
+  ws-opts:
+    headers:
+      Host: us1.monopolitass.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: ''
   xudp: true
 - client-fingerprint: chrome
   flow: 'xtls-rprx-vision '

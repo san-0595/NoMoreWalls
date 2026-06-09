@@ -1,33 +1,31 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇰🇷KR_1|3.5MB/s
-  password: qwerREWQ@@
-  port: '55104'
-  server: 221.150.109.20
-  type: ss
+- name: KR_speednode_0016
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- cipher: aes-256-cfb
-  name: 🇰🇷KR_2|4.7MB/s
-  password: qwerREWQ@@
-  port: 3417
-  server: 221.150.109.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
+  username: test
+- client-fingerprint: firefox
   encryption: none
-  name: 🇰🇷KR_3|3.8MB/s
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_2|1.4MB/s
   network: tcp
-  port: '8686'
+  packet-encoding: xudp
+  port: 21796
   reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 43.201.28.206
-  servername: www.apple.com
+    _spider-x: /
+    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
+    short-id: '!!str 804d6574da9180'
+  server: 43.203.252.196
+  servername: www.sony.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -57,15 +55,6 @@ proxies:
   type: vless
   udp: true
   uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- name: KR_speednode_0016
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
 - name: KR_speednode_0018
   port: 1090
   server: 121.169.46.116

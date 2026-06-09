@@ -1,20 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|1.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 47200
-  reality-opts:
-    public-key: aom9XGtg9tre2RGo8XkCaRqlE02nrZ4smmnpLpzidRE
-    short-id: '!!str b2a9bd658fc81dc6'
-  server: 144.31.230.72
-  servername: stats.vk-portal.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ffaa8e95-74e2-4ef4-8974-69dd3651b6f9
 - name: SE_speednode_0051
   network: ws
   port: 2086
