@@ -50,14 +50,8 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
   name: HK_speednode_0002
-  network: tcp
   port: 443
   reality-opts:
     public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
@@ -69,4 +63,3 @@ proxies:
   type: vless
   udp: true
   uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
-  xudp: true
