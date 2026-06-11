@@ -1,1 +1,41 @@
-proxies: []
+proxies:
+- encryption: none
+  name: 🇬🇧GB_1|2.0MB/s
+  network: tcppn (event4_7184249786) [vless - tcp]
+  port: '1005'
+  server: 3.9.115.249
+  type: vless
+  udp: true
+  uuid: 196b18f8-9bcd-482c-9887-0dd8b220dd0a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|2.6MB/s
+  network: tcp
+  port: '7443'
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: '!!str d82fb387'
+  server: 195.184.247.252
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c0277ad-bb4d-496f-bc0c-40ccee03fca5
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: GB_speednode_0002
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 9C7hhe8QFKasqMS7YrM_CE2YvTqREJGtFfZTcyPsfSs
+    short-id: '!!str 97470ad3d1b08e88'
+  server: 82.40.60.172
+  servername: nl-1.liambo.ai
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbaaff1e-c914-4817-9d33-58be35a3bee6
