@@ -50,107 +50,131 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_1|2.0MB/s
-  obfs: salamander
-  obfs-password: gxXGwphUe6APbFFsWA
-  password: Nrqyc1GkGr
-  port: '54236'
-  server: panel.cobalttoolsgithub.online
-  skip-cert-verify: false
-  sni: panel.cobalttoolsgithub.online
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
-  name: 🇺🇸US_3|1.1MB/s
+  encryption: none
+  name: 🇺🇸US_1|1.6MB/s
+  network: tcp
+  port: '1005'
+  reality-opts:
+    public-key: aEyXUqZ4doy7Qse745h5IKGo31Jc2YEK3QOVaOuPPns
+    short-id: '!!str 4f2087146c1f587a'
+  server: newyorkcity.instasup.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
+  xudp: true
+- name: 🇺🇸US_2|1.0MB/s
+  network: ws
+  port: 8880
+  server: 114.129.43.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|1.6MB/s
+  network: ws
+  port: 443
+  security: tls
+  server: cdn.veilvpn.fans
+  servername: cdn.veilvpn.fans
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    headers:
+      Host: cdn.veilvpn.fans
+    path: /vpnhu
+    v2ray-http-upgrade: true
+- name: 🇺🇸US_4|1.3MB/s
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 🇺🇸US_5|1.8MB/s
+  network: ws
+  port: 8880
+  server: 92.53.188.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime18.workers.dev
+    path: /
+- encryption: none
+  name: 🇺🇸US_6|2.7MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 55380
+  server: 172.86.109.206
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5e1f8cb7-5509-43c9-a417-1c65c0df5959
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸US_7|1.2MB/s
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 104.20.17.98
-  servername: racknerd.henso.wiki
+  server: 104.21.84.167
+  servername: cdn.veilvpn.fans
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9fb8b6a8-5094-42e3-a949-26bc63551345
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
   ws-opts:
     headers:
-      Host: racknerd.henso.wiki
-    path: /9fb8b6a8-5094-42e3-a949-26bc63551345-vless
-- encryption: none
-  name: 🇺🇸US_4|2.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: cdn.exon-software.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 77bde48a-6e7a-4182-ab42-265696bfc591
-  ws-opts:
-    headers:
-      Host: ssw.mobile-unix.ir
-    path: /
+      Host: cdn.veilvpn.fans
+    path: /vpnhu
     v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- encryption: none
-  name: 🇺🇸US_5|1.9MB/s
-  network: xhttp
-  port: '80'
-  server: 76.13.121.90
-  type: vless
-  udp: true
-  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
-  xhttp-opts:
-    host: play.google.com
-    mode: auto
-    path: /SoonTeam
-    x-padding-bytes: 100-1000
   xudp: true
-- encryption: none
-  name: 🇺🇸US_6|1.5MB/s
-  network: xhttp
-  port: '80'
-  server: wst.imsoon.net
-  type: vless
-  udp: true
-  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
-  xhttp-opts:
-    host: play.google.com
-    mode: auto
-    path: /SoonTeam
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_7|2.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: YG4byJp2QQKqQmcWVqxQVk99odu8l1wFNHxcTTNThAs
-    short-id: '!!str 6f0693bf8b91cb64'
-  server: 38.180.81.209
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5692799-0576-4c94-b67b-506994428dee
-  xudp: true
-- name: US_speednode_0049
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_8|1.9MB/s
   network: ws
-  port: 80
-  server: 199.232.197.131
-  servername: max-gb1.global.ssl.fastly.net
+  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
+  port: '443'
+  server: h2.bnm.uw.to
   skip-cert-verify: false
-  tls: false
-  type: vless
+  sni: h2.bnm.uw.to
+  type: trojan
   udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
+- encryption: none
+  name: 🇺🇸US_9|1.4MB/s
+  network: ws
+  port: '80'
+  server: 104.17.72.206
+  type: vless
+  udp: true
+  uuid: 1de37726-744b-46e1-9101-c926b3402e82
+  ws-opts:
+    headers:
+      Host: v2.v2configlab.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /
+  xudp: true
 - name: US_speednode_0050
   network: ws
   port: 80
