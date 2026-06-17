@@ -42,3 +42,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇭🇰HK_3|2.3MB/s
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: 443
+  server: 103.74.192.228
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jy.hhllfly.kdns.fr
+    max-early-data: 2048
+    path: /
