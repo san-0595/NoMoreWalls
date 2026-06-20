@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 日本2|@ripaojiedian
+- name: 🇯🇵JP_2|1.1MB/s
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 37973
@@ -30,3 +30,20 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: random
+  name: 🇯🇵JP_3|2.0MB/s
+  network: ws
+  port: '2096'
+  server: saas.sin.fan
+  servername: sp.linuxdododo.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sp.linuxdododo.ccwu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /proxyip=ProxyIP.JP.cmliussss.net
+  xudp: true
