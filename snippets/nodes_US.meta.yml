@@ -31,37 +31,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|2.6MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alpn:
-  - h3
-  name: 🇺🇸US_2|1.2MB/s
-  password: MySecurePassword123
-  port: 8443
-  server: wuhantravel.duckdns.org
-  sni: wuhantravel.duckdns.org
-  type: hysteria2
+- encryption: none
+  name: 🇺🇸US_1|2.4MB/s
+  network: ws
+  port: '8880'
+  server: 50.62.198.50
+  type: vless
   udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_3|3.1MB/s
+  name: 🇺🇸US_2|1.1MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: bx8Vj6dVO5DKul_uEMHeg7ZtEkT7Twud2IDdwClRAgQ
-    short-id: '!!str a1b2c3d4'
-  server: 149.28.87.17
-  servername: www.cloudflare.com
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str 6a2b5c9d'
+  server: sw.musicperec.ru
+  servername: www.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: f265505f-a2cf-4b50-8ea1-d250313d0f52
+  uuid: 31216f81-3139-0021-bac4-646680314264
+  xudp: true
 - name: US_speednode_0069
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
