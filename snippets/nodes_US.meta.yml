@@ -145,13 +145,6 @@ proxies:
   skip-cert-verify: true
   sni: vpn-us-004.fastervpn.world
   type: hysteria2
-- name: 🇺🇸US_8|2.6MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-006.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-006.fastervpn.world
-  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
