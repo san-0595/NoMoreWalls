@@ -15,14 +15,6 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: '🇸🇬SG_@WangCai_8 #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.179.158.79
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
 - name: SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
@@ -99,6 +91,18 @@ proxies:
         Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: /QiangLieTuiJian?ed=2560
   xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬SG_4|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: 18.143.165.76
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
