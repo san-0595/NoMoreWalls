@@ -32,8 +32,56 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
+  name: 🇺🇸US_1|2.2MB/s
+  network: ws
+  port: 443
+  server: support.zoom.us
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_1|3.8MB/s
+  name: 🇺🇸US_2|2.3MB/s
+  network: xhttp
+  port: '443'
+  server: 104.18.153.130
+  servername: www.chinns.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8b54a64-3e9a-4455-93c4-452202fbe440
+  xhttp-opts:
+    host: www.chinns.ccwu.cc
+    mode: stream-one
+    path: /a/v----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|1.8MB/s
+  network: ws
+  port: '443'
+  server: support.zoom.us
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /us-gllc
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_4|3.1MB/s
   network: ws
   port: 443
   server: 47.93.235.180
@@ -51,46 +99,8 @@ proxies:
     max-early-data: 2560
     path: /sg-melbi
   xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|1.8MB/s
-  network: ws
-  port: 443
-  server: cnamefuckxxs.yuchen.icu
-  sni: 2026062822.smjh.de5.net
-  tls: true
-  type: vless
-  udp: false
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    headers:
-      Host: 2026062822.smjh.de5.net
-    path: /?ed=2048
-- client-fingerprint: chrome
-  name: 🇺🇸US_3|2.0MB/s
-  network: ws
-  port: 443
-  server: 104.16.1.237
-  sni: 2026062822.smjh.de5.net
-  tls: true
-  type: vless
-  udp: false
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    headers:
-      Host: 2026062822.smjh.de5.net
-    path: /?ed=2048
-- name: 🇺🇸US_4|2.7MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 64.186.248.160
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    path: /
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_5|3.1MB/s
+  name: 🇺🇸US_5|2.6MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -103,7 +113,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 🇺🇸US_6|2.6MB/s
+  name: 🇺🇸US_6|2.7MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -118,19 +128,100 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: 🇺🇸US_7|1.6MB/s
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_7|1.9MB/s
   network: ws
-  port: '8880'
-  server: 104.16.107.139
+  port: '443'
+  server: 170.114.45.6
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
   type: vless
   udp: true
-  uuid: ff7390de-ce93-4d7d-b08b-bef8f71a85cf
+  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
   ws-opts:
     headers:
-      Host: tiny-lake-c7f3.16-1af.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /us-gllc
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_8|1.5MB/s
+  network: ws
+  port: '443'
+  server: 170.114.46.6
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 192bc523-26fe-4233-b10d-725deb710ea5
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /us-gllc
+  xudp: true
+- name: 🇺🇸US_9|1.6MB/s
+  network: ws
+  port: '8880'
+  server: 172.64.88.168
+  type: vless
+  udp: true
+  uuid: 2e55e846-7737-4c07-af67-191e2727513c
+  ws-opts:
+    headers:
+      Host: weathered-sunset-be54.407-d9d.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 🇺🇸US_10|2.4MB/s
+  network: ws
+  port: '8880'
+  server: 104.16.106.213
+  type: vless
+  udp: true
+  uuid: 6b89f475-913c-4381-a102-f5e06a129685
+  ws-opts:
+    headers:
+      Host: proud-dawn-56f1.125-85b.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- name: 🇺🇸US_11|2.3MB/s
+  network: ws
+  port: '8880'
+  server: 172.64.88.168
+  type: vless
+  udp: true
+  uuid: 21b93e91-5bb1-4d6d-9093-1fd09ae06903
+  ws-opts:
+    headers:
+      Host: morning-silence-7b1b.222-46c.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_12|2.7MB/s
+  network: ws
+  port: '443'
+  server: 47.93.235.180
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /sg-melbi
   xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
