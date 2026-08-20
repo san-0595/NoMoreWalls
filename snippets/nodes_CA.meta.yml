@@ -24,3 +24,13 @@ proxies:
     headers:
       Host: misaka.cndyw.ggff.net
     path: /?ed=2560
+- name: 🇨🇦148095 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: hmvyfx1tpnz6pp3k
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  skip-cert-verify: false
+  sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2
