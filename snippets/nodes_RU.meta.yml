@@ -9,9 +9,3 @@ proxies:
     headers:
       Host: vms.lifetime48.workers.dev
     path: /
-- name: 🇷🇺RU_1|1.9MB/s
-  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
-  port: 4433
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
