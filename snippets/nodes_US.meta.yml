@@ -53,100 +53,63 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|2.6MB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
+- encryption: none
+  name: 🇺🇸US_1|1.6MB/s
+  network: ws
+  port: '8880'
+  server: 172.64.88.168
+  type: vless
   udp: true
-- name: 🇺🇸US_2|2.1MB/s
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|2.6MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|2.5MB/s
+  uuid: 2e55e846-7737-4c07-af67-191e2727513c
+  ws-opts:
+    headers:
+      Host: weathered-sunset-be54.407-d9d.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- name: 🇺🇸US_2|2.4MB/s
   port: 443
   server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|1.9MB/s
+- name: 🇺🇸US_3|3.2MB/s
   port: 443
   server: 149.22.88.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_6|1.5MB/s
-  port: 9443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|1.1MB/s
+- name: 🇺🇸US_4|1.8MB/s
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_8|2.7MB/s
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_9|3.0MB/s
+- name: 🇺🇸US_5|1.2MB/s
   port: 443
   server: 192.227.176.234
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_10|1.1MB/s
-  port: 443
-  server: 68.235.56.51
+- name: 🇺🇸US_6|1.1MB/s
+  port: 9443
+  server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_11|1.3MB/s
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: 🇺🇸US_12|1.4MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|1.8MB/s
+- name: 🇺🇸US_7|3.0MB/s
   port: 443
   server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_14|2.1MB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|4.0MB/s
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-128-gcm
+  name: 🇺🇸US_8|4.4MB/s
+  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
+  port: '40034'
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

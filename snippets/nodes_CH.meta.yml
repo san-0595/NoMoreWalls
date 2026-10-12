@@ -20,14 +20,14 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇭CH_1|2.9MB/s
+  name: 🇨🇭CH_1|1.5MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
     short-id: '!!str '
-  server: 179.237.84.26
-  servername: il8mvvzeuq.edgepop.lol
+  server: 179.237.69.151
+  servername: yloyqo0gfsqm.edgepop.lol
   tls: true
   type: vless
   udp: true
